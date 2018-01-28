@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Lahoma, arial;
+}
+
+
+body
+{
+	background-image: url(memphis-colorful.png)  /* made by Made by Raul Gaitan */
+}
+
+
+/*Chcialem stworzyć klasę option 1&2 (dwie, żeby nadać im dwa kolory naprzemiennie) ale nie przyklejały mi się wszystkie do lewej strony- dlatego zrobiłem te opcje na ID */
+
+#container{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#option1{
+	float:left;
+	padding:10px;
+	background-color:tomato;
+	font-size:15px;
+	text-align:center;
+}
+
+#option2{
+	float:left;
+	padding:10px;
+	background-color:DodgerBlue;
+	font-size:15px;
+	text-align:center;
+}
+
+#option3{
+	float:left;
+	padding:10px;
+	background-color:tomato;
+	font-size:15px;
+	text-align:center;
+}
+
+#option4{
+	float:left;
+	padding:10px;
+	background-color:DodgerBlue;
+	font-size:15px;
+	text-align:center;
+}
+
+
+
+
+
+
+
