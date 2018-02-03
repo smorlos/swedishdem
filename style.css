@@ -1,56 +1,51 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: Roboto,arial;
+}
 
 body{
 	width:100%;	
 	background-color: #C8C8C8;
 	text-align:center;
-
 }
 
-article{
-	
-	
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:#D9D9D9;
+	overflow:hidden;
 }
 
-#logo{
-	
+li{
+	float:left;
+}
+
+li a{
+	display:block;
+	color:#000;
+	padding:8px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:#555;
+	color:white;
+}
+
+#logo{/* wymiary tymczasowo*/
+	margin:30px;
+	font-size:40px; 
 }
 
 #menu{
-
+	display:inline-block;
+	margin-right:auto;
+	margin-left:auto;
+	padding:10px;
 }
 
-#container{
-
-}
-
-.main_menu{
-	list-style-type:none;
-}
-.main_menu_option{
-	border: solid 1px grey;
-	/* border-collapse:collapse; nie dziala */
-	margin: 2px;
-	/*
-	display:block;
-	float:left;
-	*/
-}
 .article_button{
 	float:left;
-	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
