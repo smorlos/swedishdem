@@ -1,3 +1,4 @@
 *.ini
 .idea
 ~$*.docx
+.DS_Store
