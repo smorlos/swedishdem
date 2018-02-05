@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Ćwiczenia</title>
+<meta charset="UTF-8"> <!-- użyty na podstawie https://www.w3schools.com/html/html_head.asp; z innych źródeł wiem, że służy do poprawnego wyświetlania polskich znaków(o ile istnieją w użytej czcionce)-->
+<meta name="description" content="Własna stronka do ćwiczenia html">
+<meta name="keywords" content="HTML, CSS, nauka, ćwiczenia">
+<meta name="author" content= "bezmasla">
+<meta http-equiv="refresh" content="30"> <!-- służy do odświeżania strony o daną ilość sekund ~https://www.w3schools.com/html/html_head.asp*/-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--HTML5 wprowadził metodę pozawalającą projektantowi ustalić z góry jaka częśc strony będzie wyśtwietlana
+																													może ona się różnić zależnie od urządzenia(będzie mniejsza na małym urządzeniu a większa na większym)
+																													znacznik meta (viewport) instruuje przeglądarkę jak kontrolować skalowanie i wymiary strony. Wartość width=device-width ustawia
+																													szerokość na całą dostępną szerokość urządzenia. Wartość initial-scale=1.0 ustawia zoom kiedy strona po raz pierwszy zostaje załadowana -->
+</head>
+
+
+
+<body>
+	<div id="container">
+		
+		<h1>Projekcik</h1>
+		
+			<div id="menu">
+					<div class="menu">Opcja pierwsza</div>
+					<div class="menu">Opcja druga</div>
+					<div class="menu">Opcja trzecia</div>
+					<div class="menu">Opcja czwarta</div>
+					<div style="clear:both"></div>
+			</div>
+				<div id="foto">
+				<a href= https://www.youtube.com/watch?v=ZXsQAXx_ao0><img id="topimage" src="manstanding.jpg" alt="Man standing towards horizon" ></a>
+				</div>
+				
+				<div id="reszta">
+					<h2>Poniżej zastosowany Iframe:)</h2>
+					<iframe src="https://www.w3schools.com/html/html_iframe.asp"></iframe><p>Który z jakiegoś powodu nie działa</p>
+					
+					<table style="width:100%">
+						  <tr>
+							<th>Imie</th>
+							<th>Nazwisko</th> 
+							<th>Pozycja</th>
+						  </tr>
+						  <tr>
+							<td>Piotr</td>
+							<td>Korlaga</td> 
+							<td>Kapitan drużyny</td>
+						  </tr>
+						   <tr>
+							<td>Bezmasla</td>
+							<td>---</td> 
+							<td>Naczelny newbie</td>
+						  </tr>
+						   <tr>
+							<td>Greg</td>
+							<td>---</td> 
+							<td>Strach się bać</td>
+						  </tr>
+						  <tr>
+							<td>Guzik</td>
+							<td>---</td> 
+							<td>Ogarniaczka</td>
+						  </tr>
+					</table>
+					</br>			</br>			</br>			</br>			</br>			</br>
+					<p>Elementy Layoutu: Header, Nav, Section, Article, Aside, Footer, Details, Summary zostały dodane w HTML5. Użyję ich przy kolejnej stronie.</p></br>
+					<p> Istnieją cztery sposoby do stworzenia wielokolumnowych layoutów. Każdy z nich ma swoje wady i zalety</p>
+					<ol>
+					<li>Tabele HTML(bardzo nierekomendowane)</li>
+					<li>Właściwość float CSS'a</li>
+					<li>Framework CSS'a(np w3.css albo bootstrap)</li>
+					<li>Flexbox CSS'a</li>
+					</ol>
+				</div>
+		</div>
+</body>
+</html>
